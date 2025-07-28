@@ -1,0 +1,105 @@
+.userData {
+  display: flex;
+  border: 2px solid black;
+  margin-bottom: 5px;
+  gap: 5px;
+}
+.profilePicture {
+  padding: 5px;
+}
+.userDetails {
+  display: flex;
+  flex-direction: column;
+  padding-top: 14px;
+}
+.language {
+  border: 2px solid black;
+  padding: 5px;
+  margin: 5px;
+}
+.boxColor {
+  margin: 10px;
+  border: 2px solid black;
+  text-align: center;
+}
+
+/* .creditCard-container {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 100px;
+  border-radius: 20px;
+  padding-left: 10px;
+  margin-left: 10px;
+  padding-top: 10px;
+  gap: 5px;
+  object-fit: contain;
+} */
+
+.cards-container {
+  display: flex;
+  justify-content: space-around;
+}
+.creditCard-component {
+  display: flex;
+}
+.typeImage {
+  align-self: flex-end;
+  margin-right: 20px;
+}
+.typeImage img {
+  height: 50px;
+  width: 50px;
+  object-fit: contain;
+}
+.creditCard-container {
+  width: 400px;
+  border-radius: 12px;
+  padding: 20px;
+  color: white;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 200px;
+  box-sizing: border-box;
+}
+.creditCard-container i {
+  text-align: right;
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: block;
+}
+.cardDetails {
+  width: 100%;
+  letter-spacing: 10px;
+}
+.bankDetails {
+  display: flex;
+  gap: 10px;
+}
+.driverContainer {
+  display: flex;
+  background-color: cornflowerblue;
+  margin: 10px;
+  justify-content: center;
+  border-radius: 20px;
+  gap: 20px;
+  color: white;
+}
+
+.driverImage img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+.driverDetails {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  width: 270px;
+  justify-content: center;
+}
+.driverDetails .carDetail {
+  display: flex;
+}
